@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ncx xmlns:ncx="http://www.daisy.org/z3986/2005/ncx/" xmlns="http://www.daisy.org/z3986/2005/ncx/" version="2005-1" xml:lang="en">
+  <head>
+    <meta name="dtb:fidus" content="110" />
+  </head>
+  <docTitle>
+    <text>Report Test</text>
+  </docTitle>
+  <navMap>
+
+    <!-- 2.01 NCX: playOrder is optional -->
+    <navPoint id="t1">
+      <navLabel><text>Title page</text></navLabel>
+      <content src="titlepage.xhtml#title" />
+    </navPoint>
+    <navPoint id="t_1_0-1">
+      <navLabel><text>Report Cover Title</text></navLabel>
+      <content src="document-1.xhtml#_1_0" />
+      <navPoint id="tH701106-1">
+        <navLabel><text>My Report Subtitle</text></navLabel>
+        <content src="document-1.xhtml#H701106" />
+      </navPoint>
+      <navPoint id="tH4585518-1">
+        <navLabel><text>Position paper</text></navLabel>
+        <content src="document-1.xhtml#H4585518" />
+      </navPoint>
+      <navPoint id="tH9993510-1">
+        <navLabel><text>Programme 3</text></navLabel>
+        <content src="document-1.xhtml#H9993510" />
+      </navPoint>
+    </navPoint>
+    <navPoint id="t_2_0-2">
+      <navLabel><text>My Report body</text></navLabel>
+      <content src="document-2.xhtml#_2_0" />
+    </navPoint>
+    <navPoint id="t_3_0-3">
+      <navLabel><text>My Report Title - Back Cover</text></navLabel>
+      <content src="document-3.xhtml#_3_0" />
+      <navPoint id="tH3446123-3">
+        <navLabel><text>All about my report</text></navLabel>
+        <content src="document-3.xhtml#H3446123" />
+      </navPoint>
+    </navPoint>
+    <navPoint id="t2">
+      <navLabel><text>Copyright</text></navLabel>
+      <content src="copyright.xhtml#copyright" />
+    </navPoint>
+  </navMap>
+</ncx>

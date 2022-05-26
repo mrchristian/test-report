@@ -1,0 +1,42 @@
+\documentclass[11pt]{book}
+
+                
+\usepackage{titling}
+                
+\newcommand{\subtitle}[1]{%
+                    
+	\posttitle{%
+                        
+		\par\end{center}
+                        
+		\begin{center}\large#1\end{center}
+                        
+		\vskip 0.5em}%
+                }
+            
+                
+\usepackage{authblk}
+                
+\makeatletter
+                
+\let\@fnsymbol\@alph
+                
+\makeatother
+            
+\usepackage{docmute}
+\title{Report Test}
+\author{}
+
+\begin{document}
+\maketitle
+\def\title#1{\chapter{#1}}
+\tableofcontents
+
+        \input{chapter-1}
+        
+        \input{chapter-2}
+        
+        \input{chapter-3}
+        
+
+\end{document}
